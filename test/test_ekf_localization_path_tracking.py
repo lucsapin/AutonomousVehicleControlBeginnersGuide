@@ -13,6 +13,6 @@ import extended_kalman_filter_localization
 
 
 def test_simulation():
-    extended_kalman_filter_localization.show_plot = False
+    extended_kalman_filter_localization.show_plot = True
 
     extended_kalman_filter_localization.main()
